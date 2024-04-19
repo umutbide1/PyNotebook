@@ -47,5 +47,7 @@ x,*y,z=numbers   #ilk eleman x e atanir ikinci ortadaki elemanlar y ye atanır e
 result=y[0]+y[1]+y[2]
 print(result)
 
+#github deneme tamam deneme 
+
 
 
