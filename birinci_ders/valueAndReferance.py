@@ -17,24 +17,24 @@ x,y,z=2,5,10
 
 #SORU kullanıcıdan alınan 2 sayının çarpımı ile x,y,z toplamının farkı nedir
 
-# a=int(input("bir deger giriniz:"))
-# b=int(input("ikicni bir deger giriniz:"))
-# print((a*b)-(x+y+z))
+a=int(input("bir deger giriniz:"))
+b=int(input("ikicni bir deger giriniz:"))
+print((a*b)-(x+y+z))
 
 #SORU y nin x e kalansız bölümünü hesaplayınız
 
-# kalansizBolum=int(y/x)
-# print(kalansizBolum)
+kalansizBolum=int(y/x)
+print(kalansizBolum)
 
 #SORU XYZ NİN TOPLAMININ MOD 3 Ü NEDİR?
 
-# xyzToplam=x+y+z
+xyzToplam=x+y+z
 
-# print(xyzToplam%3)
+print(xyzToplam%3)
 
 #SORU Y NİN X İNCİ KUVVETİNİ HESAPLAYINIZ
 
-# print(y**x)
+print(y**x)
 
 #SORU X,Y*,Z= NUMBERS İSLEMİNE GORE Y NİN DEGERLERİ TOPLAMI NELERDİR 
 
@@ -46,7 +46,6 @@ x,*y,z=numbers   #ilk eleman x e atanir ikinci ortadaki elemanlar y ye atanır e
 
 result=y[0]+y[1]+y[2]
 print(result)
-
 #github deneme tamam deneme 
 
 
