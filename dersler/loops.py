@@ -1,4 +1,4 @@
-# dizileri gezmek için ideal mesela 
+# # dizileri gezmek için ideal mesela 
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45] 
  
@@ -18,7 +18,7 @@ for n in name:
 
 sayilar= [1,3,5,7,9,12,19,21]
 tekSayilarDizisi=[]
-# SAYILARDAN HANGİLERİ 3 UN KATIDIR 
+# # SAYILARDAN HANGİLERİ 3 UN KATIDIR 
 
 sayac=0
 for sayi in sayilar:
@@ -26,10 +26,10 @@ for sayi in sayilar:
         print(f"{sayi} sayisi 3 ün bir katidir.Diziye eklendi")
         tekSayilarDizisi.append(sayi)
 
-#for tekSayi in tekSayilarDizisi:
-print(f"Ucun katlari olan sayilar su sekildedir: {tekSayilarDizisi}")
+for tekSayi in tekSayilarDizisi:
+    print(f"Ucun katlari olan sayilar su sekildedir: {tekSayilarDizisi}")
 
-# SAYILARIN TOPLAMI
+# # SAYILARIN TOPLAMI
 sayilarToplam=0
 for sayilarToplami in sayilar:
     sayilarToplam=sayilarToplami+sayilarToplam
@@ -37,7 +37,7 @@ for sayilarToplami in sayilar:
 print(f"sayilarToplam: {sayilarToplam}")
 
 
-# SAYILARIN İÇERİSİNDEKİ TEK SAYILARIN KARELERİNİ AL VE EKRANA BASTIR
+# # SAYILARIN İÇERİSİNDEKİ TEK SAYILARIN KARELERİNİ AL VE EKRANA BASTIR
 eklenecekSayi=0
 tekSayilarKareDizi=[]
 for tekSayilar in sayilar:
@@ -61,7 +61,7 @@ for sehir in sehirler:
         print(sehir)
     sehirHarfiSayaci=0
 
-################################ WHİLE DONGUSU KONUSU 
+# ################################ WHİLE DONGUSU KONUSU 
 
 # 1 den 100 e kadar sayıları tanımla ve ekrana yaz mesela bunu while ile yapmak daha mantıklı 
 
@@ -98,21 +98,42 @@ while True:
     bitisDegeri=int(input("Luften bitis degerini giriiniz: "))
     if baslangicDegeri >= bitisDegeri:
         print("Girmis oldugunuz deger araliklari iki aralik arasindaki tek sayilari bulma islemine uygun degildir..Tekrar deneyiniz.")
-    else:
+    elif baslangicDegeri < bitisDegeri:
         break
 while True:
-    if baslangicDegeri%2==1 and baslangicDegeri<=bitisDegeri:
+    if baslangicDegeri%2==1 and baslangicDegeri<=bitisDegeri: 
         baslangicDegeri=baslangicDegeri+2
-        print(baslangicDegeri)
-    elif baslangicDegeri%2==0:
-        baslangicDegeri+1
+        if baslangicDegeri < bitisDegeri:
+            print(baslangicDegeri)
+        if baslangicDegeri >=bitisDegeri:
+            break
     else:
-        break
+        baslangicDegeri=baslangicDegeri+1
+    
+# 0 VE 100 ARASINDAKİ SAYILARİ AZALAN BİCİMDE YAZDİRİN WHİLE İLE
+yuz=0
+sifirYuzArasiDizi=[]
+while yuz<=100:
+    sifirYuzArasiDizi.append(yuz)
+    yuz=yuz+1
+yuz=yuz-1  
+while yuz>=0:
+    print(sifirYuzArasiDizi[yuz], end=" ")
+    yuz=yuz-1
 
+#KULLANİCİDAN ALACAGINIZ 5 SAYİYİ SIRALİ BİR SEKİLDE YAZDİRİNİZ.
 
+alinacakSayiAdedi=int(input("kac adet sayi ile islem yapacaginizi belirleyiniz: "))
+siralanacakDizi=[]
+sayac=1
+while alinacakSayiAdedi>0:
+    alinacakSayiAdedi=alinacakSayiAdedi-1
+    x=int(input(f"{sayac}. sayiyi giriniz: "))
+    sayac=sayac+1
+    siralanacakDizi.append(x)
+siraliDizi=sorted(siralanacakDizi)
 
-
-
+print(f"Siralanmis diziniz su sekildedir {siraliDizi}")
 
 
 
