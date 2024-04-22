@@ -83,6 +83,24 @@ while not name or name=="abdulmuttalip":  # bak mesela burada name değeri boş 
 print(f"Hosgeldin {name}")
 
 
+#WHİLE İLE İLGİLİ ÖRNEK UYGULAMALAR
+sayilar1= [1,3,5,7,9,12,19,21]
+# SAYİLAR LİSTESİNİ WHİLE İLE EKRANA BASTIRALIM 
+sayac=int(0) 
+while sayac<=len(sayilar1):
+    print(sayilar1[sayac],end=" ")
+    sayac=sayac+1
+
+
+#BAŞLANGIC VE BİTİS DEGERLERİNİ ALIP ARADAKİ BUTUN TEK SAYILARI YAZDIRAN PROGRAM WHİLE İLE 
+
+
+
+
+
+
+
+
 
 
 
