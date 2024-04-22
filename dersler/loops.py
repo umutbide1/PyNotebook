@@ -93,7 +93,21 @@ while sayac<=len(sayilar1):
 
 
 #BAŞLANGIC VE BİTİS DEGERLERİNİ ALIP ARADAKİ BUTUN TEK SAYILARI YAZDIRAN PROGRAM WHİLE İLE 
-
+while True:
+    baslangicDegeri=int(input("Lutfen baslangic degerini giriniz: "))
+    bitisDegeri=int(input("Luften bitis degerini giriiniz: "))
+    if baslangicDegeri >= bitisDegeri:
+        print("Girmis oldugunuz deger araliklari iki aralik arasindaki tek sayilari bulma islemine uygun degildir..Tekrar deneyiniz.")
+    else:
+        break
+while True:
+    if baslangicDegeri%2==1 and baslangicDegeri<=bitisDegeri:
+        baslangicDegeri=baslangicDegeri+2
+        print(baslangicDegeri)
+    elif baslangicDegeri%2==0:
+        baslangicDegeri+1
+    else:
+        break
 
 
 
