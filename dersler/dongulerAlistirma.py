@@ -40,4 +40,4 @@ while i < kacAdetTahmin:
     if kacAdetTahmin==donguAdediSayaci:
         print("Uzgunuz tahmin hakkiniz bitti ve dogru cevabi bulamadiniz..")
         break
-        
+    #deneme    
