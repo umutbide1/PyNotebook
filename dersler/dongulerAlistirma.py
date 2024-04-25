@@ -39,5 +39,6 @@ while i < kacAdetTahmin:
         break
     if kacAdetTahmin==donguAdediSayaci:
         print("Uzgunuz tahmin hakkiniz bitti ve dogru cevabi bulamadiniz..")
+        print("SAYI" , sayi , "di. Bİ DAHA OYNAMA SEN!")
         break
     #deneme    github proj değişim denenme anlamaya calisma
