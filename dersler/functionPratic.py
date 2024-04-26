@@ -7,3 +7,16 @@ def ekranaYazdir(yazdirilacakDeger,yazdirilmaMiktari):
 
 ekranaYazdir("Umut",10)
 
+# KENDİNE GÖNDERİLEN SINIRSIZ SAYIDAKİ PARAMETREYİ BİR LİSTEYE CEVİREN FONKSİYONU YAZALIM
+
+def listConventer(*eklenecekSayi):
+    numList=[]
+    for sayi in eklenecekSayi:
+       numList.append(sayi)
+    return numList
+x=listConventer(10,20,30,40,50)
+
+print(x)
+
+y=listConventer(10,20,30)
+print(y)
