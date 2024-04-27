@@ -38,11 +38,18 @@ def aralikAsalSayiHesaplayici(ilkSayi, sonSayi):
 print(aralikAsalSayiHesaplayici(1, 40))
 
 
+#KENDİSİNE GÖNDERİLEN BİR SAYININ TAM BÖLENLERİNİ BİR LİSTE ŞEKLİNDE DÖNDÜR 
 
-        
+def modList(sayiKontrol):
+    bolenlerList=[]
+    for x in range(1,sayiKontrol+1):
+        if sayiKontrol%x==0:
+            bolenlerList.append(x)
+
+    return bolenlerList          
 
 
-
+print(modList(31))
 
 
 
