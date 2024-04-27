@@ -20,3 +20,31 @@ print(x)
 
 y=listConventer(10,20,30)
 print(y)
+
+#GONDERİLEN 2 SAYI ARASINDAKİ ASAL SAYILARI BULAN FONKSİYON
+
+def aralikAsalSayiHesaplayici(ilkSayi, sonSayi):
+    definedAsalNum = []
+    while ilkSayi <= sonSayi:
+        if ilkSayi > 1:
+            for i in range(2, ilkSayi):
+                if (ilkSayi % i) == 0:
+                    break
+            else:
+                definedAsalNum.append(ilkSayi)
+        ilkSayi += 1
+    return definedAsalNum
+
+print(aralikAsalSayiHesaplayici(1, 40))
+
+
+
+        
+
+
+
+
+
+
+
+
