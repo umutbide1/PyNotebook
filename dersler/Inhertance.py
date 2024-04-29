@@ -23,7 +23,7 @@ print(student1.whoAmI()) #student kalıtım aldığı için fonksiyona bu da eri
 
 # ezme işlemleri biraz sıkıntılı 
 # override kısmına bir bakılabilir 
-# 8.4 kısım 4. yer kalılnan 
+# 8.4 kısım 4. yer kalılnan  
 
 
 
