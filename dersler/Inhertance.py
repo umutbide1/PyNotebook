@@ -53,6 +53,7 @@
 # p1=Person()  
 # s1=Student()
 
+# temel sınıfta bir fonksiyon varsa kalıtım alan sınıflar da o fonksiyonları kullanabilir 
 
 
 
