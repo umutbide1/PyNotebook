@@ -11,6 +11,6 @@ class Person:
 p1 = Person(name="Umut",year=2002)  # buradan nesne ürettim denebilir üretildiği ab kurucusu çalışıyor yani
 p2 = Person(name="Beyza",year=2001)  # bu şekilde de oluşturulabilir 
 
-
+# Buralar da anlaşıldı
     
 
