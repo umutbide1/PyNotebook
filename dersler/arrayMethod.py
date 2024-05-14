@@ -22,6 +22,5 @@ print(number.count(10)) # 10 elemanından kaç adet var??
 
 number.clear() #diziyi temizler 
 
-
-
+# Anlaşılmadık yer yok 
 print(number)

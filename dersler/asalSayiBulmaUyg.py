@@ -18,3 +18,4 @@ while True:
             break
     else:
         print("Asaldir")
+# Yapı anlaşıldı 

@@ -35,3 +35,4 @@ paraCek(564, 5500)
 
 #buna eklemeler yapılabilir 
 # faiz ekleme bilgisayardan tarih alma gibi bunların hepsini ekleyelim
+#genel anlamıyla güzel,gerisi araştırılmalı ve geliştirilmeli
