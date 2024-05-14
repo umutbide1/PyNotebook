@@ -66,4 +66,4 @@ ogrenciler[number]= {
 
 print(ogrenciler)
 
-
+# bu yapı biraz karışık ama kullanışlı sorun yok
