@@ -15,7 +15,7 @@ class Person:
 p1=Person(name="Umut",year=2002)
 
 p1.intro()
-print(f"Adim: {p1.name} Yasim: {p1.calculator()}")
+print(f"Adim: {p1.name} Yasim: {p1.calculator()}") # burada ne yapıyor tekrar dinle
 
 class Circle:
     pi=3.14
