@@ -109,7 +109,7 @@ print(araclar)
 # liste içindeki verileri bir yerde sakla 
 bilgiSaklamaListesi=[]
 bilgiDegiskeni=""
-for i in range(5):
+for i in range(5): # for döngüsü anladım
     bilgiDegiskeni=araclar[i]
     bilgiSaklamaListesi.append(bilgiDegiskeni)
 
