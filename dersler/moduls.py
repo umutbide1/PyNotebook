@@ -19,3 +19,4 @@ print(value)
 from math import * # burada mesela math kütüphanesinden bütün modülleri çekiyor ayrı ayrı da çekebiliyormuşuz
 
 from math import sqrt,factorial # parça parça import muhabbeti
+#3. videoda kaldık
