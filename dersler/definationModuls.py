@@ -2,7 +2,7 @@
 modül hakkinda bilgilendirme
 
 """
-
+print("Modul hazirlandi")
 
 number=10
 
