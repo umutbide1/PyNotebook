@@ -20,3 +20,5 @@ from math import * # burada mesela math kütüphanesinden bütün modülleri çe
 
 from math import sqrt,factorial # parça parça import muhabbeti
 #3. videoda kaldık
+
+#rastgele sayı üretmek için bir deneme yapılıyor şuan o yüzden buraları hızlı geçiyorum
